@@ -29,18 +29,21 @@
 <h1>Shubha Swamy</h1>
 </div>
 </div>
+<br> <br>
 
 <div class="row">
 <div class="large-8 columns" style="z-index: 10;">
 
 
 <h3 class="bio">
+
 <img src="img/profile.jpg" alt="Profile Picture" width="200" height="200" class="wrap align-left">
+<div class="flex-container">
 Hi, I'm Shubha! I'm from the Bay Area and currently a student at the University of Colorado Boulder studying computer science.  
 			 I dabble in photography, read the news, spend (a lot of) time in coffee shops, and enjoy learning new things. 
 			Feel free to say hi!
 <br><br>
-
+</div>
 
 </h3>
 
@@ -85,22 +88,14 @@ Hi, I'm Shubha! I'm from the Bay Area and currently a student at the University 
 <div class="row section">
 <div class="large-12 columns"><h2>More Stuff</h2></div>
 <div class="large-10 columns">
-<h3>Currently listening to <a id="lastfm" href="http://www.last.fm/user/shubhaswamy"></a>.</h3>
 <h3>{More Coming Soon}</h3>
+</div>
 <br> <br> <br>
 
-</div>
 <div>
 
 
-<script>
 
- 
-$.getJSON('http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=shubhaswamy&api_key=02c39410485ba39873509873b5a958da&format=json', function(data) {
-  var track = data.recenttracks.track[0]
-  $('#lastfm').html(track.artist["#text"] + " - " + track.name)
-});
-</script>
 
 </body>
 
