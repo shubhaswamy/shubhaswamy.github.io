@@ -29,3 +29,6 @@ img { display: block; } img.wrap { max-width: 70%; } img.align-right { float: ri
     flex: 1 100%;
 }
 
+a:hover {
+    text-decoration: underline;
+}
