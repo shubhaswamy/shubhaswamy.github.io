@@ -32,3 +32,8 @@ img { display: block; } img.wrap { max-width: 70%; } img.align-right { float: ri
 a:hover {
     text-decoration: underline;
 }
+
+img:hover {
+  transform: scale(1.05);
+  transform-origin: center bottom;
+}
