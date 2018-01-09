@@ -5,6 +5,7 @@ body {
     color: #FFF;
     background: #ffffff;
     -webkit-font-smoothing: antialiased;
+
 }
 a {
     text-decoration: none;
@@ -233,3 +234,19 @@ ul.social-icons {
 }
 
 
+
+
+.fa-heart {
+  color: red;
+  top: 5px;
+  width: 10px;
+  animation-name: pulse;
+  animation-duration: .38s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  100% {transform: scale(1.3);}
+}
+
+    
