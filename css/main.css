@@ -41,18 +41,18 @@ img:hover {
 
 
 
-.prof-pic{
+/*.prof-pic{
     
-    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-    filter: grayscale(100%); /* FF 35+ */
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); 
 
-}
+} */
 
-.prof-pic:hover {
+/*.prof-pic:hover {
   transition: filter .1s ease-in-out;
-  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(0%); /* FF 35+ */
-}
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%); 
+}*/
 .style{
   font-family: 'Raleway', sans-serif;
   line-height: 1.5;
@@ -68,7 +68,7 @@ img:hover {
   font-weight: bold;
   font-style: normal;
   color:#322f30;
-  background-color: yellow;
+  background-color: white;
 }
 
 @font-face {
