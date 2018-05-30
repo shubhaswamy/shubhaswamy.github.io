@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato);
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url(https://use.fontawesome.com/releases/v5.0.13/css/all.css);
 body {
     font-family: 'Lato', sans-serif;
     color: #FFF;
@@ -45,6 +45,7 @@ ul.social-icons {
     vertical-align: top;
     display: inline;
     height: 100px;
+    padding: 10px;
   
 }
 .social-icons a {
@@ -56,7 +57,7 @@ ul.social-icons {
   margin: 8px;
   
 }
-.fa-facebook {
+.fa-facebook-f{
     padding:10px 14px;
     -o-transition:.5s;
     -ms-transition:.5s;
@@ -66,11 +67,11 @@ ul.social-icons {
     background-color: #322f30;
     border-radius: 50%;
 }
-.fa-facebook:hover {
+.fa-facebook-f:hover {
     background-color: #3d5b99;
 }
 .fa-envelope {
-    padding:10px 12px;
+    padding:10px 11px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -82,8 +83,8 @@ ul.social-icons {
 .fa-envelope:hover {
     background-color: #d63b3b;
 }
-.fa-medium {
-    padding:10px 12px;
+.fa-medium-m{
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -92,11 +93,11 @@ ul.social-icons {
     background-color: #322f30;
     border-radius: 50%;
 }
-.fa-medium:hover {
-    background-color: #18B475;
+.fa-medium-m:hover {
+    background-color: #00ab6c;
 }
 .fa-github {
-    padding:10px 13px;
+    padding:10px 11px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -106,10 +107,10 @@ ul.social-icons {
     border-radius: 50%;
 }
 .fa-github:hover {
-    background-color: #2AB349;
+    background-color: #6cc644;
 }
 .fa-instagram {
-    padding:10px 12px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -122,7 +123,7 @@ ul.social-icons {
     background-color: #B63A93;
 }
 .fa-twitter {
-    padding:10px 12px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -135,7 +136,7 @@ ul.social-icons {
     background-color: #00aced;
 }
 .fa-camera{
-    padding:10px 12px;
+    padding:10px 11px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -148,7 +149,7 @@ ul.social-icons {
     background-color: #AE995A;
 }
 .fa-spotify {
-    padding:10px 12px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -160,8 +161,8 @@ ul.social-icons {
 .fa-spotify:hover {
     background-color: #1FD662;
 }
-.fa-linkedin {
-    padding:10px 12px;
+.fa-linkedin-in{
+    padding:10px 11px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -170,11 +171,11 @@ ul.social-icons {
     background-color: #322f30;
     border-radius: 50%;
 }
-.fa-linkedin:hover {
+.fa-linkedin-in:hover {
     background-color: #0073a4;
 }
 .fa-product-hunt {
-    padding:10px 12px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -188,7 +189,7 @@ ul.social-icons {
 }
 
 .fa-paperclip {
-    padding:10px 12px;
+    padding:10px 11px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -206,7 +207,7 @@ ul.social-icons {
 }
 
 .fa-snapchat {
-    padding:10px 12px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -220,7 +221,7 @@ ul.social-icons {
 }
 
 .fa-twitter {
-    padding:10px 12px;
+    padding:10px 10px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
@@ -233,6 +234,20 @@ ul.social-icons {
     background-color: #1DA1F3;
 }
 
+
+.fa-facebook-messenger{
+    padding:10px 11px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    border-radius: 50%;
+}
+.fa-facebook-messenger:hover {
+    background-color: #0084FF;
+}
 
 
 
