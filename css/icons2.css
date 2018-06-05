@@ -249,6 +249,20 @@ ul.social-icons {
     background-color: #0084FF;
 }
 
+.fa-instagram{
+    padding:10px 11px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+    border-radius: 50%;
+}
+.fa-instagram:hover {
+    background-color: #bc2a8d;
+}
+
 
 
 .fa-heart {
